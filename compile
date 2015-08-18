@@ -1,0 +1,3 @@
+g++ -c state.cpp
+g++ -c fsm.cpp
+g++ automata.cpp state.o fsm.o -o automata
