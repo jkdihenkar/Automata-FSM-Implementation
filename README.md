@@ -1,8 +1,8 @@
-#Automata : FSM : in C++
+# Automata : FSM : in C++
 
 This is a implmentation of a Finite Automata that accepts a machine defination. After accepting the machine defination the program interprets it and load the automata rules into the memory.
 
-##1. Input
+## 1. Input
 
 The sample input file looks as :
 
@@ -30,7 +30,7 @@ Here as shown above
 
 Rest of Lines : Transition rules of the states.
 
-##2. Compiling and Running
+## 2. Compiling and Running
 
 The compile and run process assumes that you have `g++` compiler installed.
 
@@ -48,7 +48,7 @@ So now you have a executable file `automata`, Run as :
 ./automata
 ```
 
-##3. Explanation of Files :
+## 3. Explanation of Files :
 
 * `fsm.cpp` : All the Finite state machine function definations
 * `automata.cpp` : The automata main code, based on the fsm library
